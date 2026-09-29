@@ -11,6 +11,8 @@ Glide (swipe) typing · gestures · emoji · clipboard history · smart suggesti
 [![NuGet ScreenKeyboard.Core](https://img.shields.io/nuget/v/ScreenKeyboard.Core.svg?label=ScreenKeyboard.Core)](https://www.nuget.org/packages/ScreenKeyboard.Core)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 
+**[Live demo (WebAssembly)](https://wieslawsoltes.github.io/ScreenKeyboardControl/)**
+
 ![ScreenKeyboard light theme](docs/images/keyboard-light.png)
 
 </div>
@@ -127,6 +129,8 @@ if (OperatingSystem.IsBrowser())
 | [Building & releasing](docs/building.md) | Repository layout, tests, samples, CI, NuGet packaging |
 
 ## Sample app
+
+Try it online: **https://wieslawsoltes.github.io/ScreenKeyboardControl/**
 
 [`samples/ScreenKeyboard.Sample`](samples/ScreenKeyboard.Sample) demonstrates every feature with a live settings
 pane (themes, languages, gestures, typing options) and persistence of settings, learned words and emoji history.
