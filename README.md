@@ -26,17 +26,17 @@ The typing engine is platform independent (`ScreenKeyboard.Core`, pure .NET, ful
 
 | | |
 |---|---|
-| ⌨️ **Layouts** | All FlorisBoard layouts (QWERTY, QWERTZ, AZERTY, Dvorak, Colemak, Workman, BÉPO, Neo2, JCUKEN, Greek, Hebrew, Arabic, Persian, Hindi, Bengali, Tamil, Thai, Korean, Japanese JIS, Armenian, Georgian and many more), symbols pages, numeric, phone and advanced numeric pads. Add your own in JSON. |
-| 🌍 **70+ languages** | FlorisBoard subtype presets with per-language popups (accents), currency symbols, punctuation rules and composers (Hangul syllables, Japanese kana, Vietnamese Telex). |
-| ✍️ **Glide typing** | C# port of FlorisBoard's statistical glide classifier with live preview and a fading trail. |
-| 👆 **Gestures** | Configurable swipe up/down/left/right, space bar cursor control, swipe-to-delete words precisely, long-press actions, multi-touch rollover, shift chording, key repeat. |
-| 💡 **Smart typing** | Word completion, keyboard-aware autocorrect (with undo on backspace), next-word prediction, learning user dictionary, auto-capitalization, double-space period, smart punctuation spacing. |
-| 😀 **Emoji** | Complete CLDR emoji set with categories, skin tones, recents & pinning, keyword search in 6 languages, `:shortcode` suggestions and classic emoticons. |
-| 📋 **Clipboard** | Clipboard history with pinning, expiry and one-tap paste; recently copied text suggested in the smartbar. |
-| ✏️ **Editing panel** | Cursor pad, selection mode, select all, copy/cut/paste, undo/redo, line and document navigation. |
-| 🎨 **Theming** | 12 built-in themes (Floris Day/Night/borderless/AMOLED, Material, Nord, Ocean, Rosé, High Contrast, Terminal), light/dark following the system, JSON themes and per-key style rules. |
-| 🧩 **Configurable** | 60+ observable settings: key height (plus interactive resize mode), spacing, font scale, one-handed mode, split keyboard, floating keyboard, number row, hint priority, utility key, smartbar layout, haptics, incognito… |
-| ♿ **Accessible** | Automation names on keys, high-contrast theme, adjustable sizes and delays. |
+| **Layouts** | All FlorisBoard layouts (QWERTY, QWERTZ, AZERTY, Dvorak, Colemak, Workman, BÉPO, Neo2, JCUKEN, Greek, Hebrew, Arabic, Persian, Hindi, Bengali, Tamil, Thai, Korean, Japanese JIS, Armenian, Georgian and many more), symbols pages, numeric, phone and advanced numeric pads. Add your own in JSON. |
+| **70+ languages** | FlorisBoard subtype presets with per-language popups (accents), currency symbols, punctuation rules and composers (Hangul syllables, Japanese kana, Vietnamese Telex). |
+| **Glide typing** | C# port of FlorisBoard's statistical glide classifier with live preview and a fading trail. |
+| **Gestures** | Configurable swipe up/down/left/right, space bar cursor control, swipe-to-delete words precisely, long-press actions, multi-touch rollover, shift chording, key repeat. |
+| **Smart typing** | Word completion, keyboard-aware autocorrect (with undo on backspace), next-word prediction, learning user dictionary, auto-capitalization, double-space period, smart punctuation spacing. |
+| **Emoji** | Complete CLDR emoji set with categories, skin tones, recents & pinning, keyword search in 6 languages, `:shortcode` suggestions and classic emoticons. |
+| **Clipboard** | Clipboard history with pinning, expiry and one-tap paste; recently copied text suggested in the smartbar. |
+| **Editing panel** | Cursor pad, selection mode, select all, copy/cut/paste, undo/redo, line and document navigation. |
+| **Theming** | 12 built-in themes (Floris Day/Night/borderless/AMOLED, Material, Nord, Ocean, Rosé, High Contrast, Terminal), light/dark following the system, JSON themes and per-key style rules. |
+| **Configurable** | 60+ observable settings: key height (plus interactive resize mode), spacing, font scale, one-handed mode, split keyboard, floating keyboard, number row, hint priority, utility key, smartbar layout, haptics, incognito… |
+| **Accessible** | Automation names on keys, high-contrast theme, adjustable sizes and delays. |
 
 | | |
 |:---:|:---:|
