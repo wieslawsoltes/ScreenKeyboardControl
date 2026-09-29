@@ -22,7 +22,7 @@ jobs:
     name: Core (build + tests)
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: actions/setup-dotnet@v4
         with:
           global-json-file: global.json
@@ -58,7 +58,7 @@ jobs:
             tfms: net10.0-ios%3Bnet10.0-android
     runs-on: ${{ matrix.os }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: actions/setup-dotnet@v4
         with:
           global-json-file: global.json
@@ -85,7 +85,7 @@ jobs:
     needs: core
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: actions/setup-dotnet@v4
         with:
           global-json-file: global.json
@@ -111,7 +111,7 @@ jobs:
         os: [ubuntu-latest, windows-latest, macos-latest]
     runs-on: ${{ matrix.os }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: actions/setup-dotnet@v4
         with:
           global-json-file: global.json
@@ -123,7 +123,7 @@ jobs:
     needs: [uno]
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0
       - uses: actions/setup-dotnet@v4
