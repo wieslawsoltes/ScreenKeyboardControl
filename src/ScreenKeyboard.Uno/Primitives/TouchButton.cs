@@ -29,10 +29,10 @@ internal static class Brushes
 }
 
 /// <summary>
-/// A lightweight button used inside the keyboard. Unlike <see cref="Button"/> it never takes keyboard focus
+/// A lightweight button used inside the keyboard (a <see cref="Grid"/> because <see cref="Border"/> is sealed in WinUI). Unlike <see cref="Button"/> it never takes keyboard focus
 /// (so the edited text box keeps focus), supports press-and-hold repeat and long press, and is fully themed in code.
 /// </summary>
-public sealed partial class TouchButton : Border
+public sealed partial class TouchButton : Grid
 {
     private readonly Grid _content = new();
     private IKeyboardScheduler? _scheduler;
@@ -46,7 +46,7 @@ public sealed partial class TouchButton : Border
     /// <summary>Creates a button.</summary>
     public TouchButton()
     {
-        Child = _content;
+        Children.Add(_content);
         IsTabStop = false;
         AllowFocusOnInteraction = false;
         Background = Brushes.Transparent;
