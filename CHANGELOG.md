@@ -3,7 +3,7 @@
 All notable changes to this project are documented in this file. The format is based on
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project follows [Semantic Versioning](https://semver.org/).
 
-## [1.0.0] - Unreleased
+## [1.0.0] - 2026-09-30
 
 ### Added
 
@@ -26,3 +26,5 @@ All notable changes to this project are documented in this file. The format is b
   properties, haptics, system clipboard integration, emoji font fallback for WebAssembly, localizable UI strings
   (`KeyboardStrings`)
 - Sample application, documentation, CI, GitHub Pages and NuGet release workflows with NuGet Trusted Publishing (OIDC)
+
+[1.0.0]: https://github.com/wieslawsoltes/ScreenKeyboardControl/releases/tag/v1.0.0
